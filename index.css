@@ -1,0 +1,121 @@
+
+#Title{
+	color:Black;
+	font-family:Lucida Grande;
+	font-size:150%;
+	text-align:center;
+	}
+body {
+    margin-top: 160px;
+	background-image: url("OurPeopleInfographic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 325%;
+	background-position: top left;	
+}
+/*-------Toolbar-------*/
+.selector
+{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    background: Blue; 
+    border-bottom: 1px solid #333; 
+}
+
+#logo {
+	margin: 10px;
+	padding: 5px;
+	float:left;
+	height: 100px;
+	width: 200px;
+}
+#nav {
+	position: fixed;
+	width: auto;
+	float: right;
+	left: -10px;
+	top: 0px;
+	right: 0px;
+	padding: 0;
+	background-color: WhiteSmoke;
+	border-bottom: 1 px solid #ccc;
+	}
+#nav ul {
+	list-style: none;
+	width: auto;
+	margin: auto;
+	padding: 10px; 
+	}
+#nav li {
+	float: right;
+	}
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+	}
+#nav li:first-child a {
+	border-right: 1px solid #ccc;
+	}
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; 
+	}
+	li.active a, li.active a:hover {
+		backround:#fff
+}
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+.tab-links li {
+	margin: 0px 5px;
+	float:left;
+	list-style:none;
+	}
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	font-size: 16px;
+	font-weight:600;
+	transition: all liner 0.15s;
+	}
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab-active {
+            display:block;
+        }
+/*------------location--------*/
+#forum_area {
+    width:1200px;
+    height:700px;
+    float:left;
+    padding:10px; 
+    border: 1px solid;
+    background-color: White;
+}
+#sidebar {
+	width: 300px;
+	height:700px;
+	float:right;
+	padding:10px;
+	border: 1px solid;
+	background-color: White;
+		
